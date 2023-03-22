@@ -1,7 +1,7 @@
 {
-  "name": "lockfile",
+  "name": "secureit",
   "version": "1.0.0",
-  "description": "LockFile is a project that provides a simple and secure way to encrypt and decrypt files. With LockFile, you can easily protect your sensitive data by encrypting it with a password. The encrypted file can then be safely stored or transmitted, knowing that only those with the password can access the contents",
+  "description": "SecureIt is a project that provides a simple and secure way to encrypt and decrypt files. With SecureIt, you can easily protect your sensitive data by encrypting it with a password. The encrypted file can then be safely stored or transmitted, knowing that only those with the password can access the contents",
   "main": "index.js",
   "scripts": {
     "start": "node cli/index.js",
@@ -9,7 +9,7 @@
     "format": "prettier --write ./**/*.{js,json}"
   },
   "bin": {
-    "lockfile": "cli/index.js"
+    "secureit": "cli/index.js"
   },
   "files": [
     "cli",
@@ -18,7 +18,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Renishgotecha/lockFile.git"
+    "url": "git+https://github.com/Renishgotecha/secureIt.git"
   },
   "keywords": [
     "encrypt",
@@ -29,9 +29,9 @@
   "author": "Renish Gotecha",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Renishgotecha/lockFile/issues"
+    "url": "https://github.com/Renishgotecha/secureIt/issues"
   },
-  "homepage": "https://github.com/Renishgotecha/lockFile#readme",
+  "homepage": "https://github.com/Renishgotecha/secureIt#readme",
   "dependencies": {
     "boxen": "^7.0.2",
     "cfonts": "^3.1.1",
