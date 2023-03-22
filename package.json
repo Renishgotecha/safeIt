@@ -1,0 +1,48 @@
+{
+  "name": "lockfile",
+  "version": "1.0.0",
+  "description": "LockFile is a project that provides a simple and secure way to encrypt and decrypt files. With LockFile, you can easily protect your sensitive data by encrypting it with a password. The encrypted file can then be safely stored or transmitted, knowing that only those with the password can access the contents",
+  "main": "index.js",
+  "scripts": {
+    "start": "node cli/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write ./**/*.{js,json}"
+  },
+  "bin": {
+    "lockfile": "cli/index.js"
+  },
+  "files": [
+    "cli",
+    "index.js",
+    "components"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Renishgotecha/lockFile.git"
+  },
+  "keywords": [
+    "encrypt",
+    "encrypt file",
+    "lock file",
+    "secure file"
+  ],
+  "author": "Renish Gotecha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Renishgotecha/lockFile/issues"
+  },
+  "homepage": "https://github.com/Renishgotecha/lockFile#readme",
+  "dependencies": {
+    "boxen": "^7.0.2",
+    "cfonts": "^3.1.1",
+    "chalk": "^5.2.0",
+    "commander": "^10.0.0",
+    "crypto": "^1.0.1",
+    "fs": "^0.0.1-security",
+    "prompts": "^2.4.2"
+  },
+  "type": "module",
+  "devDependencies": {
+    "prettier": "^2.8.6"
+  }
+}
