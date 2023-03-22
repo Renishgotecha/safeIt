@@ -1,7 +1,7 @@
 {
-  "name": "secureit",
+  "name": "safeit",
   "version": "1.0.0",
-  "description": "SecureIt is a project that provides a simple and secure way to encrypt and decrypt files. With SecureIt, you can easily protect your sensitive data by encrypting it with a password. The encrypted file can then be safely stored or transmitted, knowing that only those with the password can access the contents",
+  "description": "SafeIt is a project that provides a simple and secure way to encrypt and decrypt files. With SafeIt, you can easily protect your sensitive data by encrypting it with a password. The encrypted file can then be safely stored or transmitted, knowing that only those with the password can access the contents",
   "main": "index.js",
   "scripts": {
     "start": "node cli/index.js",
@@ -9,7 +9,7 @@
     "format": "prettier --write ./**/*.{js,json}"
   },
   "bin": {
-    "secureit": "cli/index.js"
+    "safeit": "cli/index.js"
   },
   "files": [
     "cli",
@@ -18,7 +18,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Renishgotecha/secureIt.git"
+    "url": "git+https://github.com/Renishgotecha/safeIt.git"
   },
   "keywords": [
     "encrypt",
@@ -29,9 +29,9 @@
   "author": "Renish Gotecha",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Renishgotecha/secureIt/issues"
+    "url": "https://github.com/Renishgotecha/safeIt/issues"
   },
-  "homepage": "https://github.com/Renishgotecha/secureIt#readme",
+  "homepage": "https://github.com/Renishgotecha/safeIt#readme",
   "dependencies": {
     "boxen": "^7.0.2",
     "cfonts": "^3.1.1",
